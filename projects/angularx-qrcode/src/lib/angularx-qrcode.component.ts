@@ -27,6 +27,7 @@ export class QRCodeComponent implements OnChanges {
   @Input() public elementType: keyof typeof QRCodeElementType = 'canvas';
   @Input()
   public errorCorrectionLevel: keyof typeof QRCodeErrorCorrectionLevel = 'M';
+  
   @Input() public margin = 4;
   @Input() public qrdata = '';
   @Input() public scale = 4;
