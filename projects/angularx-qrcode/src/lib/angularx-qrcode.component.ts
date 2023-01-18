@@ -32,7 +32,7 @@ export class QRCodeComponent implements OnChanges {
   @Input() public scale = 4;
   @Input() public version: QRCodeVersion | undefined;
   @Input() public width = 10;
-  public image: string = '';
+  public image: string = 'f';
 
   @ViewChild('qrcElement', { static: true }) public qrcElement: ElementRef;
 
